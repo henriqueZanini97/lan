@@ -13,6 +13,46 @@ def word_data():
 
     return indice, english, portuguese, categorie, indice_categorie
 
+def run():
+    os.system('cls')
+
+    word = word_data()
+
+    #print("_____________________________\n")
+    print("[PTBR]", word[2], "\n")
+    print("[EN]: ")
+    answer = input()
+
+    os.system('cls')
+
+    print("------------------------------")
+
+    #print("[PTBR " + word[2] + "]")
+    #print("[EN " + word[1] + "]")
+    #print("[Type " + word[3] + "]")
+    #print("\n[Answer " + answer + "]")
+
+    if answer.lower() == word[1].lower():
+        print("Correct       " +  word[1])
+        print(word[3])
+    else:
+        print("Incorrect       " +  word[1])
+
+    print("------------------------------")
+
+
+    print("\nNext [any key] - Menu = [M]")
+    next = input()
+
+    if next == "m":
+        os.system("cls")
+        menu()
+    elif next != "m":
+        run()
+    
+    #menu()
+
+
 
 def menu():
     print("[LAN] Learning Animal Names - [PTBR to EN]\n")
