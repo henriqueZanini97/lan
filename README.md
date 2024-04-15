@@ -4,7 +4,7 @@
 
 The game is simple but powerfull you can learn fast about animals in a way that you will put in your head becouse the system makes you don`t stop till you tired or you learn how to write the correct translate. (The game will have some implements in a soon future.)
 
-  ![Mock Up](/assets/images/Mockup.png)
+  !(/assets/images/lan-home.png)
 
 ## How to play
 
