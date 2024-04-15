@@ -95,7 +95,7 @@ The game start when you press [1], you have to write the translation of the anim
     - Set up the configs for the deployment.
     - Link the Heroku app to the repository, then Deploy.
 
-    - The live link can be found here: [My Game](https://)
+    - The live link can be found here: [My Game](https://lan1-8f061802fb93.herokuapp.com/)
 
 ## Credits:
 
