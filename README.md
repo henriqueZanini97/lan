@@ -31,7 +31,7 @@ The game start when you press [1], you have to write the translation of the anim
 
  - its show a message that it will be implemented
 
-  ![statistc](/assets/images/lan-statistc.png)
+  ![statistc](/assets/images/lan-statistic.png)
 
 - __WHAT THIS DO?__
  
