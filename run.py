@@ -55,6 +55,14 @@ def run():
 def statistic():
     return print("----- MENU/Statistics [ not implemented yet ]")
 
+def config():
+    os.system("cls")
+    print("----- MENU/Config [ not implemented yet ]")
+    
+def exit():
+    os.system("cls")
+    print("Nice job! see you later!")
+
 def menu():
     print("[LAN] Learning Animal Names - [PTBR to EN]\n")
     print("[1] Start\n[2] Statistics\n[3] Config\n[9] Exit")
