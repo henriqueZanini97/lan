@@ -13,6 +13,11 @@ def word_data():
 
     return indice, english, portuguese, categorie, indice_categorie
 
+
+#def add_statistics(indice):
+
+
+
 def run():
     os.system('cls')
 
@@ -52,9 +57,10 @@ def run():
     
     #menu()
 
+
 def statistic():
     return print("----- MENU/Statistics [ not implemented yet ]")
-
+    
 def config():
     os.system("cls")
     print("----- MENU/Config [ not implemented yet ]")
@@ -62,6 +68,7 @@ def config():
 def exit():
     os.system("cls")
     print("Nice job! see you later!")
+
 
 def menu():
     print("[LAN] Learning Animal Names - [PTBR to EN]\n")
