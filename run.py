@@ -52,7 +52,8 @@ def run():
     
     #menu()
 
-
+def statistic():
+    return print("----- MENU/Statistics [ not implemented yet ]")
 
 def menu():
     print("[LAN] Learning Animal Names - [PTBR to EN]\n")
