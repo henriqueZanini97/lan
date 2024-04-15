@@ -14,44 +14,44 @@ The game start when you press [1], you have to write the translation of the anim
 
 ### Existing Features
 
-- __WHAT THIS DO?__
+- __MENU__
 
  Its show the main display
 
   ![mainpage](/assets/images/lan-home.png)
 
-- __WHAT THIS DO?__
+- __CONFIG__
 
  - its show a message that it will be implemented
 
 
   ![config](/assets/images/lan-config.png)
 
-- __WHAT THIS DO?__
+- __STATISTIC__
 
  - its show a message that it will be implemented
 
   ![statistc](/assets/images/lan-statistic.png)
 
-- __WHAT THIS DO?__
+- __EXIT__
  
   - its show a message that it will be implemented
 
   ![exit](/assets/images/lan-exit.png)
 
-  - __WHAT THIS DO?__
+  - __TYPE ANSWER__
  
   - You have to write the translation of the animal
 
   ![exit](/assets/images/lan-typing.png)
 
-    - __WHAT THIS DO?__
+    - __CORRECT ANSWER__
  
   - when you get type correct 
 
   ![exit](/assets/images/lan-typing-output-correct.png)
 
-   - __WHAT THIS DO?__
+   - __INCORRECT ANSWER__
  
   - when you get type incorrect 
 
