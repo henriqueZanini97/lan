@@ -1,14 +1,14 @@
 # _Lam_
 
-Lam is a pure Python language program, running in Code Institute mock terminal deployed on Heroku.
+[LAN] Learning Animal Names is a program that possibilit you learn more about animal in Portuguese to English, with easy visual make fun to you guest the correct name in English.
 
-Feel free to challenge yourself in this nostalgic game, while using your memory and your deduction skills to guess the right animal name in english.
+The game is simple but powerfull you can learn fast about animals in a way that you will put in your head becouse the system makes you don`t stop till you tired or you learn how to write the correct translate. (The game will have some implements in a soon future.)
 
   ![Mock Up](/assets/images/Mockup.png)
 
 ## How to play
 
-DESCRIBE HOW TO PLAY THE GAME
+The game start when you press [1], you have to write the translation of the animal showing, ig you get the correct answer the program will show you a option to continue or come back to the menu.
 
 ## Features
 
@@ -16,35 +16,52 @@ DESCRIBE HOW TO PLAY THE GAME
 
 - __WHAT THIS DO?__
 
- - BLA BLA BLA BLA
- - BLA BLA BLA
+ Its show the main display
 
-  ![Land Page](/assets/images/Start-Page.png)
-
-- __WHAT THIS DO?__
-
- - BLA BLA BLA BLA
-
-
-  ![Guesses Conditions](/assets/images/)
+  ![mainpage](/assets/images/lan-home.png)
 
 - __WHAT THIS DO?__
 
- - BLA BLA BLA BLA
+ - its show a message that it will be implemented
 
-  ![ Stages](/assets/images/)
 
-- __Game Over Menssage__
+  ![config](/assets/images/lan-config.png)
+
+- __WHAT THIS DO?__
+
+ - its show a message that it will be implemented
+
+  ![statistc](/assets/images/lan-statistc.png)
+
+- __WHAT THIS DO?__
  
-  - BLA BLA BLA.
+  - its show a message that it will be implemented
 
-  ![Game Over](/assets/images/Game-Over.png)
+  ![exit](/assets/images/lan-exit.png)
+
+  - __WHAT THIS DO?__
+ 
+  - You have to write the translation of the animal
+
+  ![exit](/assets/images/lan-typing.png)
+
+    - __WHAT THIS DO?__
+ 
+  - when you get type correct 
+
+  ![exit](/assets/images/lan-typing-output-correct.png)
+
+   - __WHAT THIS DO?__
+ 
+  - when you get type incorrect 
+
+  ![exit](/assets/images/lan-typing-output-incorrect.png)
 
 ### Features Left to Implement
 
-  - WHAT WOULD BE GOOD TO IMPLEMENT??
-  - WHAT WOULD BE GOOD TO IMPLEMENT??
-  - WHAT WOULD BE GOOD TO IMPLEMENT??
+  - I will implement the statistic function. this function will get all the words that you have done correct and incorrect, showing you the words that you have more dificult and those that you is master.
+  - I will implemt the config. this function will modify the type EN to PTBR
+
 
 ## Testing
 
@@ -64,8 +81,7 @@ DESCRIBE HOW TO PLAY THE GAME
 
 ### Solved Bugs
 
-  - When I wrote the function to check if the guess was in the word, the code unexpectedly appended two characters in the same index list, if they both were in the word, causing me a problem to evaluates when the game was finished, that error occurred because I allowed the user to input two characters strings as a guess, the solution was to accept only the whole word or one single character.
-  - When I fixed the bug described above, I didn't get the expected logical result when I inputed the word to be guessed, that happened because I was checking if the user inputted only one letter before checking if the user had guessed the whole word, in other words, was a flow bug.
+...
 
 ### Reaming Bugs
   
