@@ -19,7 +19,7 @@ def word_data():
 
 
 def run():
-    os.system('cls')
+    os.system('clear')
 
     word = word_data()
 
@@ -28,7 +28,7 @@ def run():
     print("[EN]: ")
     answer = input()
 
-    os.system('cls')
+    os.system('clear')
 
     print("------------------------------")
 
@@ -50,7 +50,7 @@ def run():
     next = input()
 
     if next == "m":
-        os.system("cls")
+        os.system("clear")
         menu()
     elif next != "m":
         run()
@@ -62,11 +62,11 @@ def statistic():
     return print("----- MENU/Statistics [ not implemented yet ]")
     
 def config():
-    os.system("cls")
+    os.system("clear")
     print("----- MENU/Config [ not implemented yet ]")
     
 def exit():
-    os.system("cls")
+    os.system("clear")
     print("Nice job! see you later!")
 
 
@@ -75,7 +75,7 @@ def menu():
     print("[1] Start\n[2] Statistics\n[3] Config\n[9] Exit")
     array_op = ['1', '2', '3', '9']
     op = input()
-    os.system("cls")
+    os.system("clear")
     if op in array_op:
         op = int(op)
         if op == 1:
@@ -89,14 +89,14 @@ def menu():
         elif op == 9:
             exit()
     else:
-        os.system('cls')
+        os.system('clear')
         print("Keryword ["+ op +"] not found!")
         menu()
         
 
 def main():
 
-    os.system('cls')
+    os.system('clear')
     menu()
 
 
